@@ -8,4 +8,8 @@ int main(){
 		cin>>nv;
 		v[nv]++;
 	}
+	for(int i=1;i<=N;i++){
+		cout<<v[i]<<endl;
+	}
+	return 0;
 }
